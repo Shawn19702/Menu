@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: orange;
+    width: 100%;
+    background-size: cover;
+    background-image: url("images/ShawnDelicious.png");
+    height: 750px;
+}
+
+#logo{
+   width: 100px; 
+   border-radius: 50%;
+   transition: transform 2s;
+   padding: 10px; 
+}
+
+#logo:hover{
+  transform: rotate(360deg);
+}
+
+h1, h5{
+    margin: 0;
+    text-align: start;
+    padding: 20px 10px;
+    font-family: 'Roboto', sans-serif;
+font-weight: bold;    
+font-size: 30px;
+padding-bottom: 120px;
+
+}
+
+nav{
+    text-align: center;
+}
+
+li a{
+ text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: orange;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li:hover {
+ background-color: yellow;
+}
+
+.two-columns{
+    width: 50%;
+    background-color: yellow;
+    float: left;
+    padding: 40px;
+    line-height: 2;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.two-columns:hover
+{
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+#burger{
+    width: 50%;
+    height: 500px;
+    background-image: url("images/turkeyburger.jpg");
+    background-size: cover;
+    
+}
+
+
+.four-columns{
+float: left;
+ background-color: yellow;
+ width: 22%;
+ height: 250px;
+ padding: 15px;
+ margin: 20px;
+ 
+}
+
+#box1{
+    background-image: url("images/hamburg.jpg");
+    background-size: cover;  
+   
+}
+#box2{
+    background-image: url("images/basicburg.jpg");
+    background-size: cover;  
+    display: flex;
+justify-content: center;
+}
+
+#box3{
+    background-image: url("images/bur.jpg");
+    background-size: cover;  
+    display: flex;
+justify-content: center;
+}
+
+#box4{
+    background-image: url("images/Smashburger.png");
+    background-size: cover;  
+    display: flex;
+justify-content: center;
+}
+
+.section-heading{
+    text-align: center;
+}
+
+
+footer{
+    background-color: orange;
+    clear: both;
+    width: 100%;
+    padding: 56px;
+    text-align: center;
+}
+
+#button{
+    background-color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 30px;
+}
+
+table{
+    width: 75%;
+    margin: auto;
+}
+
+table td{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+   
+}
+
+    #img1{
+
+        background-image: url("images/hamburg.jpg");
+        background-size: contain; 
+        background-position: center; 
+        height: 100px;
+        width: 150px;
+
+    }
+
+    .four-columns:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+
+    #img2{
+
+        background-image: url("images/basicburg.jpg");
+        background-size: cover; 
+        background-position: center; 
+        height: 100px;
+        width: 150px;
+    }
+
+    #img3{
+
+        background-image: url("images/bur.jpg");
+        background-size: contain; 
+        background-position: center; 
+        height: 100px;
+        width: 150px;
+
+    }
+
+    #img4{
+
+        background-image: url("images/Smashburger.png");
+        background-size: cover; 
+        background-position: center; 
+        height: 100px;
+        width: 150px;
+
+    }
+    #img5{
+        background-image: url("images/In-N-Out.jpg");
+        background-size: cover; 
+        background-position: center; 
+        height: 100px;
+        width: 150px;
+
+        
+
+    }
+    #img6{
+
+        background-image: url("images/Chickenburg.jpg");
+        background-size: cover; 
+        background-position: center; 
+        height: 100px;
+        width: 150px;
+
+    }
+
+    #button1{
+
+        background-color: orange;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        height: 30px;
+        transition: transform 2s;
+    }
+
+    #button1:hover {
+        background-color: yellow; /* Green */
+        color: white;
+      }
+
+      #button2{
+
+        background-color: orange;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        height: 30px;
+        transition: transform 2s;
+    }
+
+    #button2:hover {
+        background-color: yellow; /* Green */
+        color: white;
+      }
+      #button3{
+
+        background-color: orange;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        height: 30px;
+        transition: transform 2s;
+    }
+
+    #button3:hover {
+        background-color: yellow; /* Green */
+        color: white;
+      }
+      #button4{
+
+        background-color: orange;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        height: 30px;
+        transition: transform 2s;
+    }
+
+    #button4:hover {
+        background-color: yellow; /* Green */
+        color: white;
+      }
+      #button5{
+
+        background-color: orange;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        height: 30px;
+        transition: transform 2s;
+    }
+
+    #button5:hover {
+        background-color: yellow; /* Green */
+        color: white;
+      }
+      #button6{
+
+        background-color: orange;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        height: 30px;
+        transition:all 0.3s ease;
+
+    }
+
+    #button6:hover {
+        background-color: yellow; /* Green */
+        color: white;
+      }
+    
+
+
+    
+   
+   #logo:hover{
+     transform: rotate(360deg);
+   }
+    
+
+    
+    
+
+    
+
+tr:nth-child(even){
+    background-color: lightblue
+
+
+}
+
+tr:nth-child(even){
+    transition: background-color 0.5s ease;
+  }
+
+
+
+
+
+
+
