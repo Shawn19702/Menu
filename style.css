@@ -135,12 +135,20 @@ footer{
     text-align: center;
 }
 
-#button{
+.button10{
     background-color: orange;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     height: 30px;
 }
+
+.button10:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
 
 table{
     width: 75%;
@@ -154,6 +162,95 @@ table td{
    
 }
 
+.four-columns:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+
+    #img1:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+
+    #img2:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+
+    #img3:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+    #img4:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+    #img5:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+    #img6:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+
+    #button1:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+    
+    #button2:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+    
+    #button3:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+    
+    #button4:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+    
+    #button5:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+
+    #button6:hover
+    {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    }
+   
+
     #img1{
 
         background-image: url("images/hamburg.jpg");
@@ -164,12 +261,7 @@ table td{
 
     }
 
-    .four-columns:hover
-    {
-            -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-            transform: scale(1.3);
-    }
+
 
     #img2{
 
@@ -291,7 +383,7 @@ table td{
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         height: 30px;
-        transition:all 0.3s ease;
+        transition: transform 2s;
 
     }
 
